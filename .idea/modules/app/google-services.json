@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "401122721254",
+    "project_id": "lifestyleapp-80dc2",
+    "storage_bucket": "lifestyleapp-80dc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401122721254:android:89b0a386c1df4682692a27",
+        "android_client_info": {
+          "package_name": "com.dumichelle.lifestyleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401122721254-sg8qlkauqjk548j52biivgkp0d3aqr3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dumichelle.lifestyleapp",
+            "certificate_hash": "f3e327e6489a957149b9fe622875270eda9736bb"
+          }
+        },
+        {
+          "client_id": "401122721254-nlt6vn2mfgppvnle17jn157r4paos79k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlwznKHcyLHa2I1EwuzMKo5nBqzS2iBes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401122721254-nlt6vn2mfgppvnle17jn157r4paos79k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

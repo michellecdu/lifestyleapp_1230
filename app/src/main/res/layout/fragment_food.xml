@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E0942"
+    tools:context=".FoodFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/intro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center_horizontal"
+        android:text="Check all the food groups you ate from today!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Food"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Dairy"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Protein"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Grain"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Vegetables"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Fruit"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="407dp"
+        android:layout_height="262dp"
+        android:src="@drawable/food"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

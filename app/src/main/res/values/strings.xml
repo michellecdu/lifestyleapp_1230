@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">lifestyleapp</string>
+    <string name="Food" />
+    <string name="Water" />
+    <string name="Sleep" />
+    <string name="Exercise" />
+    <string name="Resources" />
+    <string name="Home" />
+    <string-array name="quotes_array">
+        <item>Throw Kindness Around Like Confetti</item>
+        <item>The Best is Yet to Come</item>
+        <item>Some Days You Just Have to Create Your Own Sunshine</item>
+        <item>One Step at a Time</item>
+        <item>Seize the Day</item>
+        <item>Be Yourself, Everyone Else is Already Taken</item>
+        <item>You Can Never Cross the Ocean Until You Have the Courage to Lose Sight of the Shore</item>
+        <item>When You Know Your Worth, No One Can Make You Feel Worthless</item>
+        <item>Don\'t Be Afraid to Give Up the Good to Go for the Great</item>
+        <item>You Are Enough</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resources">Resources</string>
+    <string name="drinks">Drinks</string>
+    <string name="food">Food</string>
+    <string name="buffering_string">Buffering</string>
+</resources>

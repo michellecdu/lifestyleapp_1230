@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#1E0942"
+    tools:context=".DrinkFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/drinks"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="207dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center_horizontal"
+        android:text="You should try to drink between 1/2 an oz to 1 oz of water for each pound you weigh. How much do you weigh (in lbs)?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:fontFamily="@font/alegreya_sc"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/generatebtn"
+        app:layout_constraintStart_toStartOf="@+id/generatebtn"
+        app:layout_constraintTop_toBottomOf="@id/intro" />
+
+    <Button
+        android:id="@+id/generatebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="326dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="How Much Water Should You Drink (oz)?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumber" />
+
+    <TextView
+        android:id="@+id/suggestedwater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Suggested Water Amount Will Appear Here"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/generatebtn"
+        app:layout_constraintTop_toBottomOf="@+id/generatebtn" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Check If You Met the Goal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/suggestedwater"
+        app:layout_constraintTop_toBottomOf="@+id/suggestedwater" />
+</androidx.constraintlayout.widget.ConstraintLayout>
